@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <script defer src="./data.js"></script>
+    <script defer src="./app.js"></script>
+    <title>Desarrollo Web</title>
+  </head>
+  <body onload="showDescription(0)">
+    <header>
+      <nav>
+        <a href="https://www.e-contact.cl/" target="_blank">
+          <div class="button"><span>e-contact</span></div>
+        </a>
+        <ul>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">INFORMACIÓN</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="titulo">
+        <div class="section">
+          <h2>CURSO HTML, CSS, JAVASCRIPT y GIT</h2>
+        </div>      
+      </div>
+      <div class="section2">
+        <div class="card" onclick="showDescription(0)">
+          <h3>HTML</h3>
+          <p>Hiper Text Markup Languaje. El lenguaje de marcas fundamental en la creacion de tus webs. Aprendelo aqui mismo!</p>
+        </div>
+        <div class="card" onclick="showDescription(1)">
+          <h3>CSS</h3>
+          <p>Dale estilos a tu web utilizando hojas de estilos en cascadas, colocando animaciones y efectos resaltando asi las marcas de tu negocio.</p>
+        </div>
+        <div class="card" onclick="showDescription(2)">
+          <h3>JAVASCRIPT</h3>
+          <p>El principal lenguaje en la creacion de una web del lado del cliente.</p>
+        </div>
+        <div class="card" onclick="showDescription(3)">
+          <h3>GIT</h3>
+          <p>Resguarda las versiones de tu codigo utilizando esta excelente herramienta de versionado.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="encabezado" id="descriptionSection2">
+        
+        </div>
+        <div class="cont1">
+          <div class="container2-cards" id="descriptionSection3"></div>
+          <div class="description" id="descriptionSection"></div>
+        </div>     
+      </div>
+      <div class="section3">
+        <div class="section3-sup">
+          <h3>e-contact</h3>
+          <div class="section3-sup-p">
+            <p>transformando conversaciones</p>
+          </div>
+        </div>
+        <div class="section3-inf">
+          <div class="section3-inf-left">
+            <button>Menu</button>
+            <div>
+              <ul>
+                <li>INICIO</li>
+                <li>BLOG</li>
+                <li>INFORMACIÓN</li>
+                <li>CONTACTO</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section3-inf-rigth">
+            <button>Ubicacion</button>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.32368743207!2d-70.6595261255517!3d-33.44087249701953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a5fa2d49e9%3A0xda9adc9284755c0c!2sAmun%C3%A1tegui%20232%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1689638600855!5m2!1ses-419!2scl" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </main>
+    <footer>
+      <p class="footer">Desarrollado por Yoisell Cervantes Almaguer &copy; 2023</p>
+    </footer>    
+  </body>
+</html>
